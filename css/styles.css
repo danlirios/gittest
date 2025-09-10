@@ -5,12 +5,21 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    
+}
+header {
+
+    position: relative;
+}
+img{
+    width: 100%;
+}
+ul{
+    padding: 0%;
 }
 
 .header-image {
     height: 500px;
-    width: 100%;
 
 }
 
@@ -40,8 +49,167 @@ h1 {
 }
 
 .navigation-list {
-    padding: 0%;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+
 }
+.navigation-list a{
+    color: white;
+}
+
+.heading-box {
+
+    color: darkolivegreen;
+    margin: 25px auto;
+    width: fit-content;
+    border-bottom: 3px solid darkolivegreen;
+
+}
+.theme-heading {
+    margin: 0%;
+    font-size: 30px;
+}
+
+.info-list{
+
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+
+}
+
+.info-list button{
+    color: white;
+    background: none;
+    border: 1px solid white;
+    height: 45px;
+    padding: 5px 10px;
+    margin: 10px 0;   
+    border-radius: 15px
+
+}
+
+.info-list button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.info-list p{
+    margin: 5px 0;
+    color: white;
+    font-size: 22px;
+
+}
+
+.info-list h4{
+
+color: white;
+margin: 0;
+width: fit-content;
+font-size: 26px;
+
+}
+
+.info-list-item {
+
+    height: 250px;
+    display: flex;
+    width: 40vw;
+    border-radius: 27px;
+
+}
+
+.info-list-image {
+
+    object-fit: cover;
+    border-radius: 27px;
+}
+.info-description {
+
+    border-bottom-right-radius: 27px ;
+    padding: 20px;
+    
+    
+}
+
+
+
+
+.giraffe {
+
+    background-color: darkolivegreen;
+    
+}
+.freizeitpark {
+
+        background-color: rgb(167, 68, 43);
+
+}
+.übernachten {
+
+        background-color: darkcyan ;
+
+}
+.events {
+    background-color: darkgoldenrod;
+}
+
+/* **************************************** */
+
+.news-box {
+
+display: flex;
+/* height: fit-content; */
+max-width: 1200px;
+padding-left: 1rem;
+padding-right: 1rem;
+margin: auto;
+gap: 10px;
+
+}
+.news-description h3 {
+
+    color: rgb(44, 13, 13);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.news-description p {
+
+    margin: 0;
+    color: rgb(44, 13, 13) ;
+}
+.description-image {
+
+    border-radius: 26px;
+}
+
+
+
+/******************************************* */
+
+
+.event-list {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+
+}
+.event-list-item {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.event-list-item img{
+    height: 200px;
+}
+

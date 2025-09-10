@@ -1,46 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tierpark</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-</head>
-
-
-<body>
-
+  <body>
     <!-- HEADER -->
     <header>
-        <img class="header-image" src="./images/tiger-image.jpg" alt="tiger-image">
-        <h1>Tierpark Hamburg</h1>
+      <img
+        class="header-image"
+        src="./images/tiger-image.jpg"
+        alt="tiger-image"
+      />
+      <h1>Tierpark Hamburg</h1>
     </header>
 
+    <!-- NAVIGATION MENU -->
     <div class="navigation-area">
-        <ul class="navigation-list">
-            <li><a href="">Home</a></li>
-            <li><a href="">Entdecken</a></li>
-            <li><a href="">Besuchen</a></li>
-            <li><a href="">Feiern</a></li>
-            <li><a href="">Übernachten</a></li>
-            <li><a href="">Lernen</a></li>
-        </ul>
+      <ul class="navigation-list">
+        <li><a href="">Home</a></li>
+        <li><a href="">Entdecken</a></li>
+        <li><a href="">Besuchen</a></li>
+        <li><a href="">Feiern</a></li>
+        <li><a href="">Übernachten</a></li>
+        <li><a href="">Lernen</a></li>
+      </ul>
     </div>
 
     <!-- MAIN -->
     <main>
+      <!-- INFO SECTION -->
+      <div class="heading-box"><h2 class="theme-heading">Parkbereiche</h2></div>
 
+      <ul class="info-list">
+        <li class="info-list-item giraffe">
+          <img
+            class="info-list-image"
+            src="/images/giraffe-image.jpg"
+            alt="giraffe"
+          />
+          <div class="info-description">
+            <h4>Tierpark</h4>
+            <p>
+              2000 wilde und exo­ti­sche Tiere aus aller Welt in einer
+              natur­na­hen Umge­bung - aus dem Fahrzeug oder hautnah erleben!
+            </p>
+            <a href=""><button>Mehr erfahren</button></a>
+          </div>
+        </li>
 
+        <li class="info-list-item freizeitpark">
+          <img
+            class="info-list-image"
+            src="/images/free-time-park.jpg"
+            alt="Free time park"
+          />
+          <div class="info-description">
+            <h4>Freizeitpark</h4>
+            <p>
+              Über 100 Attraktionen, Fahrgeschäfte und Shows - hier ist jede
+              Menge Freizeitspaß garantiert!
+            </p>
+            <a href=""><button>Mehr erfahren</button></a>
+          </div>
+        </li>
+        <li class="info-list-item übernachten">
+          <img
+            class="info-list-image"
+            src="/images/sleepover.webp"
+            alt="sleepover"
+          />
+          <div class="info-description">
+            <h4>Übernachten</h4>
+            <p>
+              Lodges im afrikanischen Stil, komfortable Glamping-Zelte und mehr
+              - hier findet jeder den passenden Schlafplatz!
+            </p>
+            <a href=""><button>Mehr erfahren</button></a>
+          </div>
+        </li>
+        <li class="info-list-item events">
+          <img
+            class="info-list-image"
+            src="./images/events.webp"
+            alt="Events"
+          />
+          <div class="info-description">
+            <h4>Events</h4>
+            <p>
+              Ein buntes Programm aus Shows, Fütterungen, tollen Events und
+              Aktionstagen!
+            </p>
+            <a href=""><button>Mehr erfahren</button></a>
+          </div>
+        </li>
+      </ul>
 
+      <!-- NEWS SECTION -->
+      <div class="heading-box"><h2 class="theme-heading">Neuigkeiten</h2></div>
+      <div class="news-box">
+        <div class="news-description">
+          <h3>Auf Safari mit Oma & Opa</h3>
 
+          <p>
+            An jedem Samstag im September zahlen Oma und Opa nur den Kinderpreis
+            (37,50€) an der Tageskasse, wenn sie mit ihren Enkelkindern in den
+            Park kommen und uns das Codewort „Großeltern“ an den Kassen sagen.
+          </p>
+          <p>
+            Voraussetzung: Mindestens ein Enkelkind und ein Großelternteil im
+            Auto. Der Rabatt gilt NUR für die Großeltern.
+            <b>Mit einer Kinderfreikarte pro Auto kombinierbar.</b> Keine
+            Barauszahlung. Der Rechtsweg ist ausgeschlossen.
+          </p>
+          <p>
+            Rabatt für Großeltern gültig am 06./13./20. und 27. September 2025
+          </p>
+        </div>
 
+        <img
+          class="description-image"
+          src="./images/grandparents.webp"
+          alt="Grandparent"
+        />
+      </div>
 
+      <!-- EVENTS SECTION -->
+      <div>
+        <ul class="event-list">
+          <li class="event-list-item">
+            <img src="/images/halloween-image.jpg" alt="Halloween" />
+            <h4>Halloween</h4>
+            <p>Es wird wieder tierisch gruselig!</p>
+            <a href=""><button>Mehr anzeigen</button></a>
+          </li>
+
+          <li class="event-list-item">
+            <img src="/images/app-image.jpg" alt="App" />
+            <h4>Unsere neue App!</h4>
+            <p>Digitaler Parkplan, Audioguide, Tierlexikon und mehr!</p>
+            <a href=""><button>Mehr anzeigen</button></a>
+          </li>
+          <li class="event-list-item">
+            <img src="/images/lightfestival-image.jpg" alt="Light Festival" />
+            <h4>Lichterfestival</h4>
+            <p>Winteröffnung vom 08.11.25-01.03.2026</p>
+            <a href=""><button>Mehr anzeigen</button></a>
+          </li>
+        </ul>
+      </div>
     </main>
-
 
     <!-- FOOTER -->
     <footer></footer>
-
-</body>
+  </body>
 </html>
